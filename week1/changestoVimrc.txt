@@ -1,0 +1,1 @@
+The changes I made to the vimrc file is changing the colorscheme to industry
