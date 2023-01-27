@@ -1,0 +1,11 @@
+dos2unix testAlpha.txt | cat -n testAlpha.txt | grep '^\(i\).\{4\}\1$' testAlpha.txt 
+iliahi
+illupi
+inctri
+incubi
+inermi
+iniomi
+inkosi
+isinai
+isthmi
+
