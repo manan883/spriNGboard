@@ -1,0 +1,227 @@
+  372  dos2unix testAlpha.txt | cat -n testAlpha.txt | grep -E '^i[a-z][5]$' | sed 's/intern/manan/g' | sed 's/z/-/g' | awk '{printf "%s ", $0;if (NR%5==0) printf "\n"}' > output.txt
+  373  cat output.txt 
+  374  dos2unix testAlpha.txt | cat -n testAlpha.txt 
+  375  dos2unix testAlpha.txt | cat -n testAlpha.txt | cat 
+  376  clear
+  377  dos2unix testAlpha.txt | cat testAlpha.txt | grep 'i'
+  378  dos2unix testAlpha.txt | cat -n testAlpha.txt | grep -E '^i[a-z][5]$' 
+  379  clear
+  380  dos2unix testAlpha.txt | cat -n testAlpha.txt | grep '^i[a-z][5]$' | sed 's/intern/manan/g' | sed 's/z/-/g' | awk '{printf "%s ", $0;if (NR%5==0) printf "\n"}' > output.txt
+  381  cat output.txt 
+  382  dos2unix testAlpha.txt | cat testAlpha.txt | grep -E
+  383  dos2unix testAlpha.txt | cat testAlpha.txt | grep -E 'i'
+  384  clear
+  385  dos2unix testAlpha.txt | cat -n testAlpha.txt | grep 'i[a-z][5]$' | sed 's/intern/manan/g' | sed 's/z/-/g' | awk '{printf "%s ", $0;if (NR%5==0) printf "\n"}' > output.txt
+  386  cat output.txt 
+  387  dos2unix testAlpha.txt | cat -n testAlpha.txt | grep -E '^i[a-z][5]$' 
+  388  dos2unix testAlpha.txt | cat -n testAlpha.txt | grep -E 'i[a-z][5]$' 
+  389  dos2unix testAlpha.txt | cat -n testAlpha.txt | grep -E '^i[a-z][5]$' testAlpha.txt 
+  390  grep -E '^i[a-z][5]$' testAlpha.txt 
+  391  grep - '^i[a-z][5]$' testAlpha.txt 
+  392  grep '^i[a-z][5]$' testAlpha.txt 
+  393  grep '^i[5]$' testAlpha.txt 
+  394  grep '^i.$' testAlpha.txt 
+  395* grep '^i.' testAlpha.txt 
+  396  grep '^i[a-z][5].$' testAlpha.txt 
+  397* grep ' testAlpha.txt 
+  398  grep -E '^i[a-z][5]$' testAlpha.txt 
+  399  grep '^\(.\).\{5\}\1$' testAlpha.txt 
+  400  grep '^\(i\).\{4\}\1$' testAlpha.txt 
+  401  grep 'manan' testAlpha.txt 
+  402  clear
+  403  grep '^\(i\).\{4\}\1$' testAlpha.txt 
+  404  ls
+  405  grep '^\(i\).\{4\}\1$' words_alpha.txt 
+  406  cat words_alpha.txt 
+  407  grep '^\(i\).\{4\}\1$' words_alpha.txt 
+  408  grep '^\(.\).\{4\}\1$' words_alpha.txt 
+  409  grep 'i' words_alpha.txt 
+  410  grep '^\(i\).\{>\}\1$' words_alpha.txt 
+  411  grep '^\(i\).\{.\}\1$' words_alpha.txt 
+  412  grep '^\(i\).\{7\}\1$' words_alpha.txt 
+  413  grep '^\(i\).\{2\}\1$' words_alpha.txt 
+  414  grep '^\(i\).\{3\}\1$' words_alpha.txt 
+  415  grep '^\(i\).\{3\}\1$' testAlpha.txt 
+  416  rm testAlpha.txt 
+  417  dos2unix testAlpha.txt | cat -n testAlpha.txt | grep '^\(i\).\{4\}\1$'
+  418  cp words_alpha.txt testA.txt
+  419  cp words_alpha.txt testAlpha.txt
+  420  rm testA.txt 
+  421  dos2unix testAlpha.txt | cat -n testAlpha.txt | grep '^\(i\).\{4\}\1$'
+  422  dos2unix testAlpha.txt | cat -n testAlpha.txt | grep '^\(.\).\{4\}\1$'
+  423  dos2unix testAlpha.txt | cat -n testAlpha.txt | grep '^\(.\).\{5\}\1$'
+  424  dos2unix testAlpha.txt | cat -n testAlpha.txt | grep '^\(i\).\{4\}\1$' testAlpha.txt 
+  425  vim debug.txt
+  426  git add debug.txt
+  427  git status
+  428  git commit -m "debug file"
+  429  git push origin main
+  430  git push main origin
+  431  git push origin main
+  432  git push -f origin main
+  433  cd ..
+  434  ls
+  435  git add english-words/
+  436  git commit -m "debug files"
+  437  git push origin main
+  438  cd english-words/
+  439  ls
+  440  cd ..
+  441  git remove english-words/
+  442  git reset --soft HEAD
+  443  git push origin main
+  444  git commit -m "removed"
+  445  git push origin main
+  446  git push -f origin HEAD^:main
+  447  ls
+  448  cd english-words/
+  449  mv debug.txt ~/otherFilesWithGit/
+  450  cd ../..
+  451  cd ..
+  452  ls
+  453  cd ..
+  454  ls
+  455  mv debug.txt spriNGboard/week1/
+  456  ls
+  457  cd spriNGboard/week1/
+  458  ls
+  459  git add debug.txt 
+  460  git commit -m "debug file"
+  461  git push origin main
+  462  find /usr/ -name "*.xml" -type f -exec grep -L '[0-9-t]' {} +
+  463  find /usr/ -name "*.xml" -type f -exec grep -L '[0-9\-t]' {} +
+  464  sudo find /usr/ -name "*.xml" -type f -exec grep -L '[0-9\-t]' {} +
+  465  tmux
+  466  sudo find /usr/ -name "*.xml" -type f -exec grep -L '[0-9\-t]' {} +
+  467  tmux
+  468  sudo find /usr/ -name "*.xml" -type f -exec grep -L '[0-9\-t]' {} +
+  469  tmux
+  470  sudo find /usr/ -name "*.xml" -type f -exec grep -L '[0-9\-t]' {} +
+  471  sudo find /usr/ -name "*.xml" -type s -exec grep -L '[0-9\-t]' {} +
+  472  sudo find /usr/ -name "*.xml" -type f -exec grep -L '[0-9\-t]' {} +
+  473  tmux
+  474  sudo find /usr/ -name "*.xml" -type f -exec grep -L '[0-9\-t]' {} +
+  475  sudo find /usr/ -r -name "*.xml" -type f -exec grep -L '[0-9\-t]' {} +
+  476  sudo find -r /usr/ -name "*.xml" -type f -exec grep -L '[0-9\-t]' {} +
+  477  sudo find /usr/ -r name "*.xml" -type f -exec grep -L '[0-9\-t]' {} +
+  478  sudo find /usr/ -r "*.xml" -type f -exec grep -L '[0-9\-t]' {} +
+  479  sudo find /usr/ -name "*.xml" -type f -exec grep -L '[0-9\-t]' {} +
+  480  sudo find /usr/ -name "*xml" -type f -exec grep -L '[0-9\-t]' {} +
+  481  sudo find /usr/ -name "xml*" -type f -exec grep -L '[0-9\-t]' {} +
+  482  sudo find /usr/ -name "*xml" -type f -exec grep -L '[0-9\-t]' {} +
+  483  sudo find /usr/ -name "*xml" -type f -exec grep -L '[0-9\-t]' {} + > test.txt
+  484  cat test.txt 
+  485* 
+  486  sudo find /usr/ -print "*xml" -type f -exec grep -L '[0-9\-t]' {} + > test.txt
+  487  sudo find /usr/ -n "*xml" -type f -exec grep -L '[0-9\-t]' {} + > test.txt
+  488  sudo find /usr/ -name "*xml" -type f -exec grep -L '[0-9\-t]' {} + > test.txt
+  489  sudo find /usr/ -name "*xml" -type f -exec grep -L '[0-9\-t]' {} +
+  490  sudo find -L /usr/ -name "*xml" -type f -exec grep -L '[0-9\-t]' {} +
+  491  sudo find /usr/ -name "*xml" -type f -exec grep -L '[0-9\-t]' {} +
+  492  sudo find -L /usr/ -name "*xml" -type f -exec | grep -L '[0-9\-t]' {} +
+  493  sudo find -L /usr/ -name "*xml" -type f -exec grep -L '[0-9\-t]' {} +
+  494  sudo find -l /usr/ -name "*xml" -type f -exec | grep -L '[0-9\-t]' {} +
+  495  sudo find /usr/ -name "*xml" -type f -exec grep -L '[0-9\-t]' {} +
+  496  sudo find /usr/ -name "*xml" -type f -exec grep -L '[0-9\'-''t']' {} +
+  497  sudo find /usr/ -name "*xml" -type f -exec grep -L '[0-9\'-''t']' {} + > xml.txt
+  498  history 
+  499  history | Tail +497 Head +498
+  500  history | tail +497 head +498
+  501  history | tail -n +497 head -n +498
+  502  history | tail -n +497 
+  503  history | tail -n +497 | head -n +1
+  504  history | tail -n +497 | head -n +1 >> xml.txt 
+  505  cat xml.txt 
+  506  vim ~/.vimrc 
+  507  vim changestoVimrc.txt
+  508  tmux kill-server
+  509  tmux
+  510  vim ~/.tmux.conf.orig 
+  511  tmux
+  512  vim ~/.tmux.conf.orig 
+  513  neofetch
+  514  sudo yum install neofetch
+  515  neofetch
+  516  clear
+  517  ls
+  518  git add changestoVimrc.txt 
+  519  git status
+  520  git rm thing1.txt
+  521  git rm textManipulation
+  522  git rm -r textManipulation
+  523  git commit -m "vim changes"
+  524  git push origin main
+  525  man xargs
+  526  ls
+  527  cd textManipulation/
+  528  ls
+  529  cd english-words/
+  530  ls
+  531  dos2unix testAlpha.txt | grep -E '^i[a-z]{5}' | sed 's/intern/manan/g' | tr 'z' '-' | xargs -n5 | tee output.txt
+  532  cat output.txt 
+  533  dos2unix testAlpha.txt | grep -E '^i[a-z]{5}' 
+  534  grep -E '^i[a-z]{5}' testAlpha.txt 
+  535  grep -E '^i[a-z]{5}' testAlpha.txt | sed 's/intern/manan/g' | tr 'z' '-' | xargs -n5 | tee output.txt
+  536  cat output.txt 
+  537  vim output.txt 
+  538  clear
+  539  ls
+  540  rm testAlpha.txt 
+  541  mv words_alpha.txt testAlpha.txt
+  542  ls
+  543  mv testAlpha.txt words_alpha.txt
+  544  cp words_alpha.txt testAlpha.txt
+  545  ls
+  546  dos2unix testAlpha.txt && cat -n testAlpha.txt | grep 'i[a-z][5]$' | sed 's/intern/manan/g' | sed 's/z/-/g' | awk '{printf "%s ", $0;if (NR%5==0) printf "\n"}' > output.txt
+  547  ls
+  548  vim output.txt 
+  549  dos2unix testAlpha.txt && grep 'i[a-z][5]$' testAlpha.txt | sed 's/intern/manan/g' | sed 's/z/-/g' | awk '{printf "%s ", $0;if (NR%5==0) printf "\n"}' > output.txt
+  550  vim output.txt 
+  551  dos2unix testAlpha.txt && grep -E '^i[a-z]{4}' testAlpha.txt | sed 's/intern/manan/g' | tr 'z' '-' | xargs -n5 | tee output.txt
+  552  vim output.txt 
+  553  ls
+  554  history
+  555  history | Tail +551 Head +552 > textManipulation1Line.txt
+  556  history | tail +551 head +552 > textManipulation1Line.txt
+  557  touch textManipulaton1Line.txt
+  558  history | tail +551 head +552 > textManipulation1Line.txt
+  559  history | tail +551 | head +552 > textManipulation1Line.txt
+  560  history | tail -n +551 | head -n +552 > textManipulation1Line.txt
+  561  vim textManipulat
+  562  vim textManipulation1Line.txt 
+  563  ls
+  564  vim textManipulaton1Line.txt 
+  565  rm textManipulaton1Line.txt 
+  566  vim textManipulation1Line.txt 
+  567  clear
+  568  ls
+  569  cd ..
+  570  cd textManipulation/english-words/
+  571  clearls
+  572  ls
+  573  mv output.txt outputTextMani.txt
+  574  mv outputTextMani.txt ~/otherFilesWithGit/spriNGboard/week1/
+  575  mv textManipulation1Line.txt ~/otherFilesWithGit/spriNGboard/week1/
+  576  cd ~/otherFilesWithGit/spriNGboard/week1/
+  577  ls
+  578  mkdir textMani
+  579  mv outputTextMani.txt textMani
+  580  mv textManipulation1Line.txt textMani
+  581  cd textMani
+  582  ls
+  583  cd ..
+  584  git add textMani
+  585  git status
+  586  git commit -m "added text manipulation cmds"
+  587  git push origin main
+  588  ls
+  589  cd textManipulation/english-words/
+  590  ls
+  591  vim cmdListTextManipulation.txt 
+  592  227
+  593  vim cmdListTextManipulation.txt 
+  594  cd ..
+  595  cd english-words/
+  596  cat cmdListTextManipulation.txt 
+  597  cd ..
+  598  history | tail -n 227 > cmdListWeek1.txt
