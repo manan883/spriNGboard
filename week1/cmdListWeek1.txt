@@ -1,3 +1,148 @@
+  227  git clone git@github.com:dwyl/english-words.git
+  228  ls
+  229  cd english-words/
+  230  ls
+  231  cat README.md 
+  232  clera
+  233  clear
+  234  ls
+  235  vim words_alpha.txt 
+  236  od
+  237  man od
+  238  clear
+  239  ls -a
+  240  od -x words_alpha.txt 
+  241  od -x words_alpha.txt | vim od-xAlpa.txt
+  242  ls
+  243  clear
+  244  touch od-xAlpha
+  245  od -x words_alpha.txt > od-xAlpha
+  246  touch od-cAlpha
+  247  od -c words_alpha.txt > od-cAlpha
+  248  history
+  249  touch cmdList.txt
+  250  tail history
+  251  history | tail
+  252  history | tail-n +227
+  253  history | tail -n +227
+  254  history | tail -n +227 > cmdList.txt 
+  255  cat cmdList.txt 
+  256  history | tail -n +227 > cmdList.txt 
+  257  cat cmdList.txt 
+  258  clear
+  259  ls
+  260  mv cmdList.txt cmdListTextManipulation.txt
+  261  ls
+  262  cat cmdListTextManipulation.txt 
+  263  sudo yum install dos2unix
+  264  ls
+  265  cat od-cAlpha 
+  266  clear
+  267  ls
+  268  mv od-cAlpha od-cAlpha.txt
+  269  mv od-xAlpha od-xAlpha.txt
+  270  clear
+  271  ls
+  272  cd scripts/
+  273  ls
+  274  cd ..
+  275  which dos2linux
+  276  clear
+  277  which dos2unix
+  278  man dos2unix
+  279  ls
+  280  man dos2unix
+  281  cp words_alpha.txt testAlpha.txt
+  282  ls
+  283  cat man dos2unix
+  284  man dos2unix | cat
+  285  dos2unix testAlpha.txt > testUnixFile.txt
+  286  ls
+  287  cat testUnixFile.txt 
+  288  cat testAlpha.txt 
+  289  clear
+  290  ls
+  291  rm testAlpha.txt 
+  292  cp words_alpha.txt 
+  293  cp words_alpha.txt testAlpha.txt
+  294  clear
+  295  ;s
+  296  ls
+  297  clera
+  298  clear
+  299  ls
+  300  dos2unix --newfile testAlpha.txt testUnix.txt
+  301  ls
+  302  cat testUnix.txt 
+  303  clear
+  304  cat testUnixFile.txt 
+  305  rm testUnixFile.txt 
+  306  ls
+  307  dos2unix --newfile testAlpha.txt testUnix.txt | cat
+  308  dos2unix --newfile testAlpha.txt testUnix.txt > cat
+  309  ls
+  310  dos2unix --newfile testAlpha.txt testUnix.txt | grep 'i.{,5}' testUnix.txt > cat
+  311  dos2unix --newfile testAlpha.txt testUnix.txt | grep 'i.{,5}' testUnix.txt 
+  312   grep 'i.{,5}' testUnix.txt 
+  313   grep 'i.{,5}' testUnix.txt > cat
+  314   grep 'i' testUnix.txt > cat
+  315   grep 'i.*' testUnix.txt > cat
+  316   grep 'i.*' testUnix.txt
+  317   grep 'i' testUnix.txt
+  318  clear
+  319   grep -E '^i[a-z]{5}$' testUnix.txt 
+  320  histpry
+  321  history
+  322  dos2unix --newfile testAlpha.txt testUnix.txt | grep -E '^i[a-z][5]$' testUnix.txt | sed 's/intern/manan/g'
+  323  dos2unix --newfile testAlpha.txt testUnix.txt | grep -E '^i[a-z][5]$' testUnix.txt | sed 's/intern/manan/g' > output.txt 
+  324  ls
+  325  cat output.txt 
+  326  dos2unix --newfile testAlpha.txt testUnix.txt | grep -E '^i[a-z][5]$' testUnix.txt > output.txt
+  327  cat output.txt 
+  328  dos2unix --newfile testAlpha.txt | grep -E '^i[a-z][5]$' > output.txt
+  329  cat output.txt 
+  330  ls
+  331  rm testAlpha.txt 
+  332  cp words_alpha.txt testAlpha.txt
+  333  dos2unix --newfile testAlpha.txt | grep -E '^i[a-z][5]$' > output.txt
+  334  dos2unix testAlpha.txt | grep -E '^i[a-z][5]$' > output.txt
+  335  cat output.txt 
+  336  dos2unix testAlpha.txt | grep -E '^i[a-z][5]$'
+  337  dos2unix testAlpha.txt | grep -E '^i[a-z][5]$' | sed 's/intern/manan/g' | sed 's/z/-/g' | awk '{printf "%s ", $0;if (NR%5==0) printf "\n"}' > output.txt
+  338  cat output.txt 
+  339  ls
+  340  vim output.txt 
+  341  cat testUnix.txt 
+  342  clear
+  343  ls
+  344  cat testAlpha.txt 
+  345  clear
+  346  ls
+  347  dos2unix testAlpha.txt | grep -E '^i[a-z][5]$' | sed 's/intern/manan/g' | sed 's/z/-/g' | awk '{printf "%s ", $0;if (NR%5==0) printf "\n"}' > output.txt
+  348  dos2unix testAlpha.txt 
+  349  dos2unix testAlpha.txt > output.txt
+  350  cat output.txt 
+  351  dos2unix testAlpha.txt | cat testAlpha.txt 
+  352  dos2unix testAlpha.txt | cat testAlpha.txt | grep -E '^i[a-z][5]$' | sed 's/intern/manan/g' | sed 's/z/-/g' | awk '{printf "%s ", $0;if (NR%5==0) printf "\n"}' > output.txt
+  353  clear
+  354  cat output.txt 
+  355  dos2unix testAlpha.txt | cat testAlpha.txt | grep -E '^i[a-z][5]$'
+  356* dos2unix testAlpha.txt | cat testAlpha.txt | grep -E '^i[a-z][5]$' > output.tx
+  357  cat output.txt 
+  358  cat testAlpha.txt | grep -E '^i[a-z][5]$'
+  359  cat testAlpha.txt | echo
+  360  cat testAlpha.txt > output.txt
+  361  cat output.txt 
+  362  clera
+  363  clear
+  364  cat testAlpha.txt > grep -E '^i[a-z][5]$'
+  365  cat testAlpha.txt | grep -E '^i[a-z][5]$'
+  366  dos2unix testAlpha.txt | echo testAlpha.txt | grep -E '^i[a-z][5]$' | sed 's/intern/manan/g' | sed 's/z/-/g' | awk '{printf "%s ", $0;if (NR%5==0) printf "\n"}' > output.txt
+  367  cat output.txt 
+  368  echo output.txt 
+  369  dos2unix testAlpha.txt | cat testAlpha.txt | grep -E '^i[a-z][5]$' | sed 's/intern/manan/g' | sed 's/z/-/g' | awk '{printf "%s ", $0;if (NR%5==0) printf "\n"}' > output.txt
+  370  cat output.txt 
+  371  echo cat output.txt
   372  dos2unix testAlpha.txt | cat -n testAlpha.txt | grep -E '^i[a-z][5]$' | sed 's/intern/manan/g' | sed 's/z/-/g' | awk '{printf "%s ", $0;if (NR%5==0) printf "\n"}' > output.txt
   373  cat output.txt 
   374  dos2unix testAlpha.txt | cat -n testAlpha.txt 
@@ -225,3 +370,9 @@
   596  cat cmdListTextManipulation.txt 
   597  cd ..
   598  history | tail -n 227 > cmdListWeek1.txt
+  599  cat cmdListWeek1.txt 
+  600  git add cmdListWeek1.txt 
+  601  git commit -m "added cmd list for week1"
+  602  git push origin main
+  603  cat cmdListWeek1.txt 
+  604  history | tail -n +227 > cmdListWeek1.txt
