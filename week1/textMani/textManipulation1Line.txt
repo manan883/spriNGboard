@@ -1,0 +1,1 @@
+551  dos2unix testAlpha.txt && grep -E '^i[a-z]{4}' testAlpha.txt | sed 's/intern/manan/g' | tr 'z' '-' | xargs -n5 > output.txt
