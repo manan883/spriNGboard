@@ -15,14 +15,22 @@ void func_map (vector<pair<int,string>>& items)
   ////////////////////////////////////////////////
   // CREATE AN EMPTY map MAPPING int TO string. //
   ////////////////////////////////////////////////
-  map<int, string> iterator mp = map.begin();
+ map<int, string> mp;
 
   ////////////////////////////////////////////
   // USING A RANGE-BASED for(...) LOOP,     //
   // INSERT EACH ITEM IN items INTO THE MAP //
   ////////////////////////////////////////////
-  
+ for (auto i : items) {
+    mp.insert(i);
+ }
 
+ map<int, string> ::iterator it = mp.begin();
+ while (it != mp.end()){
+    cout << it->first << endl;
+    cout << it->second << endl;
+    ++it;
+ }
   //////////////////////////////////////////////
   // USING A RANGE-BASED for(...) LOOP,       //
   // PRINT OUT EACH KEY-VALUE PAIR IN THE MAP //
