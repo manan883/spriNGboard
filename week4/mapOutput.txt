@@ -1,0 +1,36 @@
+
+=== BEGIN func_map ===
+1 one
+2 two
+3 three
+4 four
+5 five
+7 seven
+11 eleven
+13 thirteen
+17 seventeen
+20 twenty
+23 twenty three
+59 fifty nine
+96 ninety six
+97 ninety seven
+
+=== END func_map ===
+
+=== BEGIN func_unordered_map ===
+N,B,LF1 3 0.333333
+N,B,LF2 3 0.666667
+N,B,LF3 7 0.428571
+N,B,LF4 7 0.571429
+N,B,LF5 7 0.714286
+N,B,LF6 7 0.857143
+N,B,LF7 17 0.411765
+N,B,LF8 17 0.470588
+N,B,LF9 17 0.529412
+N,B,LF10 17 0.588235
+N,B,LF11 17 0.647059
+N,B,LF12 17 0.705882
+N,B,LF13 17 0.764706
+N,B,LF14 17 0.823529
+
+=== END func_unordered_map ===

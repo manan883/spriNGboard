@@ -27,7 +27,7 @@ void func_map (vector<pair<int,string>>& items)
 
  map<int, string> ::iterator it = mp.begin();
  while (it != mp.end()){
-    cout << it->first << endl;
+    cout << it->first << " ";
     cout << it->second << endl;
     ++it;
  }
@@ -47,7 +47,7 @@ void func_unordered_map (vector<pair<int,string>>& items)
   //////////////////////////////////////////////////////////
   // CREATE AN EMPTY unordered_map MAPPING int TO string. //
   //////////////////////////////////////////////////////////
-
+  unordered_map<int, string> umap;
 
   /////////////////////////////////////////////
   // USING A RANGE-BASED for(...) LOOP,      //
@@ -59,7 +59,14 @@ void func_unordered_map (vector<pair<int,string>>& items)
   // IN THE FOLLOWING FORMAT:                //
   //   o  "[N,B,LF] = [3,10,0.4432]"         //
   /////////////////////////////////////////////
+  for (auto j : items) {
+      umap.insert(j);
+      auto sze = umap.size();
+      auto buckets = umap.bucket_count();
+      auto loadFactor = umap.load_factor();
 
+      cout << "N,B,LF" << sze << " " << buckets << " " << loadFactor << endl;
+  }
 
   ///////////////////////////////////////////////
   // USING A RANGE-BASED for(...) LOOP,        //
