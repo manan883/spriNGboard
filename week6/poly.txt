@@ -1,0 +1,3 @@
+Original code output: make a new cow object. Fullcow was made which implements cow. cout both, one says moo the other says ooof i ate too much 
+Modified code output: The reason it can still override is because the poke method has a const reference variable.
+ 

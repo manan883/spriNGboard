@@ -1,0 +1,9 @@
+Q: why does &s sometimes match &ncs and &cs and sometimes doesnt match it?: 
+A: the different methods are sometimes passed in by reference which has a different memory address than a pass by value.
+Q: Clearly explain why ncs before/after only sometimes match, and why cs before/after always matchA: A constant passed in to a function can not change and since the function var is also constant the compiler expects it to not change. 
+Q: Clearly explain why the two calls to overloaded_func() have different outputs.
+A: 
+
+line 1 does not append because its a const ref
+line 2 works because its not a ref
+

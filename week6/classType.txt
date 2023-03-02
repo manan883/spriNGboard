@@ -1,0 +1,5 @@
+line 1 sets a string called x to the string "hello"
+Line 2 sets rx as the reference of x. this is a string of the mem addy
+Line 3 sets crx as a constant string of the reference of x. this is again the string of the mem addy
+Line 6 does not work because crx is a constant which can not change
+
