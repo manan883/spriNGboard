@@ -1,0 +1,4 @@
+cow c is made
+Animal reference cr is copied from c
+animal non reference cs is copied from c
+cs is defined as animal so it doenst have enough memory to include the cow class methods

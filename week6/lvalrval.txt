@@ -1,0 +1,8 @@
+r value is a constant that will get deleted after use. & is used for r value, && for lvalue
+rvalue ref
+rvalue ref
+lvalue ref
+rvalue ref
+lvalue ref const
+rvalue ref
+const rvalue ref
